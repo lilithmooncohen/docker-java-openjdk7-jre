@@ -1,4 +1,4 @@
-FROM phusion/baseimage:0.9.16
+FROM ubuntu
 
 RUN apt-get update && apt-get install -y unzip && rm -rf /var/lib/apt/lists/*
 
